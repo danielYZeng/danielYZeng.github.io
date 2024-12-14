@@ -1,7 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Website!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff6f61;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .animation {
+            animation: bounce 2s infinite;
+            display: inline-block;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        Welcome to the Fun Website! 🎉
+    </header>
+    <nav>
+        <a href="#games">Games</a>
+        <a href="#jokes">Jokes</a>
+        <a href="#about">About</a>
+    </nav>
+    <main>
+        <div class="card" id="games">
+            <img src="https://via.placeholder.com/250" alt="Games">
+            <h3>Play Fun Games!</h3>
+            <p>Explore a variety of mini-games to pass the time.</p>
+        </div>
+        <div class="card" id="jokes">
+            <img src="https://via.placeholder.com/250" alt="Jokes">
+            <h3>Laugh Out Loud</h3>
+            <p>Enjoy some hilarious jokes and memes.</p>
+        </div>
+        <div class="card" id="about">
+            <img src="https://via.placeholder.com/250" alt="About">
+            <h3>About Us</h3>
+            <p>Learn more about this fun-tastic website.</p>
+        </div>
+    </main>
+    <footer>
+        <span class="animation">✨ Made with Fun and Love ✨</span>
+    </footer>
 </body>
 </html>
