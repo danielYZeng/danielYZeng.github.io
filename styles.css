@@ -1,0 +1,20 @@
+.light-theme {
+    --bg-color: white;
+    --text-color: black;
+    --link-color: blue;
+}
+
+.dark-theme {
+    --bg-color: black;
+    --text-color: white;
+    --link-color: cyan;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}

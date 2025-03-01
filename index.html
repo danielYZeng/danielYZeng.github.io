@@ -64,13 +64,15 @@
             margin-top: 2rem;
         }
     </style>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <h1>Welcome to Daniel's Personal Website</h1>
     </header>
-    
+
     <button id="theme-toggle">Toggle Theme</button>
     <p>This is some text with a theme that can change!</p>
     <a href="#">This is a link</a>
@@ -134,6 +136,15 @@
     <footer>
         <p>&copy; 2025 [Daniel Zeng]. All rights reserved.</p>
     </footer>
+
+    <script>
+        const toggleButton = document.getElementById("theme-toggle");
+    
+        toggleButton.addEventListener("click", () => {
+            document.body.classList.toggle("dark-theme");
+        });
+    </script>
+    
 </body>
 
 </html>
