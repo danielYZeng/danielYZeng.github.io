@@ -18,3 +18,8 @@ body {
 a {
     color: var(--link-color);
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
