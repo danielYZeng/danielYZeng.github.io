@@ -18,27 +18,3 @@ body {
 a {
     color: var(--link-color);
 }
-
-/* Apply padding to all sides */
-.container {
-    padding: 20px; /* 20 pixels on all sides */
-}
-
-/* Different padding for each side */
-.box {
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-}
-
-/* Shorthand padding (top, right, bottom, left) */
-.card {
-    padding: 10px 15px 20px 25px; /* Top Right Bottom Left */
-}
-
-/* Shorthand for same top-bottom and left-right */
-.section {
-    padding: 10px 20px; /* 10px (top & bottom), 20px (left & right) */
-}
-
